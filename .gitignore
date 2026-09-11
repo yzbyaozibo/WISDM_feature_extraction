@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+# Environments (preserve locally)
+.venv/
+cnn_env/
+cnn_env_old_*/
+cnn_env_test*/
+.venv-public/
+# IDE
+.idea/
+.vscode/
+# Data and generated artifacts
+data/raw/
+data/processed/
+output/
+logs/
+results/
+models/*
+!models/README.md
+# Local secrets and packaging
+.env
+.env.*
+!.env.example
+*.egg-info/
+build/
+dist/
+*.keras
